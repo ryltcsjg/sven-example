@@ -1,0 +1,29 @@
+{
+  "name": "sven",
+  "version": "0.1.1",
+  "description": "mobx",
+  "author": "ryltcsjg",
+  "main": "main.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack --config webpack.config.production.js"
+  },
+  "runtime-resource": {
+    "path": "dependent",
+    "name": "dependent"
+  },
+  "reload": {
+    "ignore": [
+      "dependent/**/*"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.19.3",
+    "mobx": "^5.15.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

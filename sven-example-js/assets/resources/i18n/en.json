@@ -1,0 +1,8 @@
+{
+  "test": {
+    "language": "english",
+    "switchLan": "switch to {0}",
+    "lan": "Chinese",
+    "localcomputed": "local.{0}"
+  }
+}

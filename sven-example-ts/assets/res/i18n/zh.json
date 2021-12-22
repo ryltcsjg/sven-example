@@ -1,0 +1,8 @@
+{
+  "test": {
+    "language": "中文",
+    "switchLan": "点我切换为{0}",
+    "lan": "英文",
+    "localcomputed": "local.{0}"
+  }
+}

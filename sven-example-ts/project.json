@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "sven-example-ts",
+  "id": "9a299444-3b8b-47b7-8c59-68d3fa8bb837",
+  "version": "2.4.7",
+  "isNew": false
+}
