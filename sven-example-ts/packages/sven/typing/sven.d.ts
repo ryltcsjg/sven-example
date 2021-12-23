@@ -116,6 +116,8 @@ declare module sven {
   export const storageByUid: (options?: { key?: string }) => PropertyDecorator;
 
   export const i18n: I18n;
+
+  export const MobxLabel: cc.Component;
 }
 
 namespace cc {

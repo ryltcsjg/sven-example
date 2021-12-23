@@ -5,6 +5,9 @@
 3. 多语言支持
 4. 全局事件监听器，装饰器注册，组件销毁时，自动注销监听。
 
+### [Example](https://github.com/ryltcsjg/sven-example)
+### [git仓库地址](https://github.com/ryltcsjg/cocoscreator-sven)
+
 ### 初始化
 ```javascript
 /**
@@ -55,7 +58,7 @@ cc.loader.loadRes('i18n/zh', (err, result) => {
 - mobx.autorun和mobx.reaction 两个方法的语法糖，在onLoad时挂载，onDestroy后自动销毁  
 - autorun：onLoad后立即被触发一次，然后每次它的依赖关系改变时会再次被触发。
 - reaction：autorun 的变种，对于如何追踪 observable 赋予了更细粒度的控制。在数据表达式首次返回一个新值后运行，在执行 效果 函数时访问的任何 observable 都不会被追踪
-- 详细信息参考 [autorun](https://cn.mobx.js.org/refguide/autorun.html) [reaction](https://cn.mobx.js.org/refguide/reaction.html)
+- 详细信息参考 [autorun](https://cn.mobx.js.org/refguide/autorun.html)、[reaction](https://cn.mobx.js.org/refguide/reaction.html)
 
 ```
 declare module sven {
